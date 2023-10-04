@@ -1,0 +1,16 @@
+.autocompleteStart ::after{
+    z-index: 999;
+}
+.pac-container, .pac-item{
+    z-index: 2147483647 !important;
+ }
+
+ .pac-container:after {
+    /* Disclaimer: not needed to show 'powered by Google' if also a Google Map is shown */
+
+    background-image: none !important;
+    height: 0px;
+}
+.autocompleteStart {
+        width: 100%;
+}
